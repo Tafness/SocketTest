@@ -98,6 +98,7 @@
         make.centerX.mas_equalTo(self.view.mas_centerX);
         make.size.mas_equalTo(CGSizeMake(120, 48));
     }];
+    NSLog(@"");
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
