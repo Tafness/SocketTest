@@ -1,0 +1,24 @@
+PODS:
+  - IQKeyboardManager (6.5.10)
+  - Masonry (1.1.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - Masonry
+  - YYText
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IQKeyboardManager
+    - Masonry
+    - YYText
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 4c8aba81f9f9c054fe06407bff8f7f086bab823f
+
+COCOAPODS: 1.11.3

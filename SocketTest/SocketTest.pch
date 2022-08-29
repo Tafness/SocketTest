@@ -1,0 +1,19 @@
+//
+//  SocketTest.pch
+//  SocketTest
+//
+//  Created by 董一飞 on 2022/8/3.
+//
+
+#ifndef SocketTest_pch
+#define SocketTest_pch
+
+#import "LGSocketServe.h"
+#import "SocketControl.h"
+#import "JsonAndDictionary.h"
+#import "YYText.h"
+#import "Masonry.h"
+
+#define NULLString(string) ((string == nil) || ([string isKindOfClass:[NSNull class]]) || (![string isKindOfClass:[NSString class]])||[string isEqualToString:@""] || [string isEqualToString:@"<null>"] || [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length]== 0 )
+
+#endif /* SocketTest_pch */
